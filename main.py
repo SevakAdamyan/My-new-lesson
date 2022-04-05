@@ -1,12 +1,11 @@
-#Input a year from keypboard,identify it as leap or not leap year.
+#Enter three different numbers on the keyboard. Find the mean (greater than one but less than the other).
 
-
-year = int(input("any year"))
-
-if year / 4 == 0 and year / 100 != 0:
-    if year / 400 == 0:
-        print('leap year')
-else:
-    print('isnt leap year')
-
-
+a=int(input('number1'))
+b=int(input('number2'))
+c=int(input('number3'))
+if a>b and a<c:
+    print('number1')
+elif b>c and b<c:
+    print('number2')
+elif c>b and c<a:
+    print('number3')
