@@ -1,11 +1,11 @@
-#Enter three different numbers on the keyboard. Find the mean (greater than one but less than the other).
+#Show a message about it, show the remainder after division (if any) ,
+#and the whole number after division (anyway).
 
-a=int(input('number1'))
-b=int(input('number2'))
-c=int(input('number3'))
-if a>b and a<c:
-    print('number1')
-elif b>c and b<c:
-    print('number2')
-elif c>b and c<a:
-    print('number3')
+num1=int(input("number1"))
+num2=int(input("number2"))
+c=num1/num2
+d=num1%num2
+if num1%num2==0:
+    print(c)
+else:
+    print(d)
