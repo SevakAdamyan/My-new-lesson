@@ -1,11 +1,12 @@
-#Show a message about it, show the remainder after division (if any) ,
-#and the whole number after division (anyway).
+# please input any number and user to count how many bayt or kilobayt.
 
-num1=int(input("number1"))
-num2=int(input("number2"))
-c=num1/num2
-d=num1%num2
-if num1%num2==0:
-    print(c)
-else:
-    print(d)
+
+num = int(input("any number"))
+num1 = input('You want to count "b to kb" or "kb to b"')
+
+
+if num1 == "b to kb":
+    print(f"{num} baytes = {num/ 1024} kilobytes")
+
+
+print(f"{num} kilobayts80 = {num*1024} baytes")
