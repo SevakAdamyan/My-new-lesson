@@ -4,16 +4,15 @@
 
 num = int(input("any number: "))
 num1 = int(input("any number: "))
+num2 = input("any symbol: ")
+
 i = 1
-num4 = "+"
-num5 = "/"
-num6 = "-"
-num7 = "*"
+
 while i > 0:
     if i !=0:
-     print(num5)
-     print(num6)
-     print(num7)
-     print(num4)
+     print(num/num1)
+     print(num+num1)
+     print(num-num1)
+     print(num*num1)
      if num == 0:
          print('new number')
