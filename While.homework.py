@@ -6,13 +6,17 @@ num = int(input("any number: "))
 num1 = int(input("any number: "))
 num2 = input("any symbol: ")
 
-i = 1
+i = 0
 
 while i > 0:
-    if i !=0:
+    if i !=0 and num2 == "/":
      print(num/num1)
+    elif num2 == "+":
      print(num+num1)
-     print(num-num1)
-     print(num*num1)
-     if num == 0:
-         print('new number')
+    elif num2 == "-":
+      print(num-num1)
+    elif num2 == "*":
+      print(num*num1)
+    else:
+
+        print('new number')
