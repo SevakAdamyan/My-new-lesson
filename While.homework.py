@@ -17,7 +17,7 @@ while True:
         print(num - num1)
     elif num2 == "*":
         print(num * num1)
-    elif num2 == 0:
+    elif num1 == 0:
         break
     else:
 
