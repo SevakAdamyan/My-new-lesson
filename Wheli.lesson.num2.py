@@ -2,13 +2,10 @@
 
 import random
 
-my_list = []
+num = int(input('any number'))
 sum = 0
 
-for i in range(0, 1):
-    num = random.randint(0, 1)
-    my_list.append(num)
-    if type(i) == float:
-        if i > 0 and i < 1:
+for i in range(num):
+    if num/(-2):
            sum += i
            print(sum)
