@@ -1,12 +1,17 @@
-# please input any number and user to count how many bayt or kilobayt.
+from buyer_ import Buyer
+from car import Car
+from carmarket import CarMarket
+from seller import Seller
+
+if __name__ == '__main__':
+    carpark = CarMarket.carpark
+
+    seller_1 = Seller('aram', 'shahbazyan', 'yerevan', carpark)
+    carmarket = CarMarket
+    car_1 = Car('BMW', 5000, 1000)
+    print(carpark)
+    buyer_1 = Buyer('meliq', 'harutyunyan', 'yerevan')
+    carmarket.add_car(car_1,seller_1)
+    print(seller_1.get_available_cars())
 
 
-num = int(input("any number"))
-num1 = input('You want to count "b to kb" or "kb to b"')
-
-
-if num1 == "b to kb":
-    print(f"{num} baytes = {num/ 1024} kilobytes")
-
-
-print(f"{num} kilobayts80 = {num*1024} baytes")
